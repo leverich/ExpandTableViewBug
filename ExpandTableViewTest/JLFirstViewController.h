@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JLFirstViewController : UIViewController
+@interface JLFirstViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

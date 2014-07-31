@@ -23,6 +23,16 @@
 		646A71A3198AAB4600221FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A717F198AAB4600221FDE /* UIKit.framework */; };
 		646A71AB198AAB4600221FDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 646A71A9198AAB4600221FDE /* InfoPlist.strings */; };
 		646A71AD198AAB4600221FDE /* ExpandTableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A71AC198AAB4600221FDE /* ExpandTableViewTestTests.m */; };
+		646A71C8198AB11300221FDE /* arrow-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A71B8198AB11300221FDE /* arrow-icon.png */; };
+		646A71C9198AB11300221FDE /* arrow-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A71B9198AB11300221FDE /* arrow-icon@2x.png */; };
+		646A71CA198AB11300221FDE /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A71BA198AB11300221FDE /* checkmark.png */; };
+		646A71CB198AB11300221FDE /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A71BB198AB11300221FDE /* checkmark@2x.png */; };
+		646A71CC198AB11300221FDE /* JKExpandTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A71BD198AB11300221FDE /* JKExpandTableView.m */; };
+		646A71CD198AB11300221FDE /* JKMultiSelectSubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A71BF198AB11300221FDE /* JKMultiSelectSubTableViewCell.m */; };
+		646A71CE198AB11300221FDE /* JKParentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A71C1198AB11300221FDE /* JKParentTableViewCell.m */; };
+		646A71CF198AB11300221FDE /* JKSingleSelectSubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A71C3198AB11300221FDE /* JKSingleSelectSubTableViewCell.m */; };
+		646A71D0198AB11300221FDE /* JKSubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A71C5198AB11300221FDE /* JKSubTableViewCell.m */; };
+		646A71D1198AB11300221FDE /* JKSubTableViewCellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646A71C7198AB11300221FDE /* JKSubTableViewCellCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +68,22 @@
 		646A71A8198AAB4600221FDE /* ExpandTableViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpandTableViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		646A71AA198AAB4600221FDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		646A71AC198AAB4600221FDE /* ExpandTableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandTableViewTestTests.m; sourceTree = "<group>"; };
+		646A71B8198AB11300221FDE /* arrow-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-icon.png"; sourceTree = "<group>"; };
+		646A71B9198AB11300221FDE /* arrow-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-icon@2x.png"; sourceTree = "<group>"; };
+		646A71BA198AB11300221FDE /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		646A71BB198AB11300221FDE /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		646A71BC198AB11300221FDE /* JKExpandTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKExpandTableView.h; sourceTree = "<group>"; };
+		646A71BD198AB11300221FDE /* JKExpandTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKExpandTableView.m; sourceTree = "<group>"; };
+		646A71BE198AB11300221FDE /* JKMultiSelectSubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMultiSelectSubTableViewCell.h; sourceTree = "<group>"; };
+		646A71BF198AB11300221FDE /* JKMultiSelectSubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMultiSelectSubTableViewCell.m; sourceTree = "<group>"; };
+		646A71C0198AB11300221FDE /* JKParentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKParentTableViewCell.h; sourceTree = "<group>"; };
+		646A71C1198AB11300221FDE /* JKParentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKParentTableViewCell.m; sourceTree = "<group>"; };
+		646A71C2198AB11300221FDE /* JKSingleSelectSubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSingleSelectSubTableViewCell.h; sourceTree = "<group>"; };
+		646A71C3198AB11300221FDE /* JKSingleSelectSubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSingleSelectSubTableViewCell.m; sourceTree = "<group>"; };
+		646A71C4198AB11300221FDE /* JKSubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSubTableViewCell.h; sourceTree = "<group>"; };
+		646A71C5198AB11300221FDE /* JKSubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSubTableViewCell.m; sourceTree = "<group>"; };
+		646A71C6198AB11300221FDE /* JKSubTableViewCellCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSubTableViewCellCell.h; sourceTree = "<group>"; };
+		646A71C7198AB11300221FDE /* JKSubTableViewCellCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSubTableViewCellCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +152,7 @@
 				646A7196198AAB4600221FDE /* JLSecondViewController.h */,
 				646A7197198AAB4600221FDE /* JLSecondViewController.m */,
 				646A7199198AAB4600221FDE /* Images.xcassets */,
+				646A71B6198AB11300221FDE /* ExpandTableView */,
 				646A7182198AAB4600221FDE /* Supporting Files */,
 			);
 			path = ExpandTableViewTest;
@@ -158,6 +185,37 @@
 				646A71A9198AAB4600221FDE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		646A71B6198AB11300221FDE /* ExpandTableView */ = {
+			isa = PBXGroup;
+			children = (
+				646A71B7198AB11300221FDE /* img */,
+				646A71BC198AB11300221FDE /* JKExpandTableView.h */,
+				646A71BD198AB11300221FDE /* JKExpandTableView.m */,
+				646A71BE198AB11300221FDE /* JKMultiSelectSubTableViewCell.h */,
+				646A71BF198AB11300221FDE /* JKMultiSelectSubTableViewCell.m */,
+				646A71C0198AB11300221FDE /* JKParentTableViewCell.h */,
+				646A71C1198AB11300221FDE /* JKParentTableViewCell.m */,
+				646A71C2198AB11300221FDE /* JKSingleSelectSubTableViewCell.h */,
+				646A71C3198AB11300221FDE /* JKSingleSelectSubTableViewCell.m */,
+				646A71C4198AB11300221FDE /* JKSubTableViewCell.h */,
+				646A71C5198AB11300221FDE /* JKSubTableViewCell.m */,
+				646A71C6198AB11300221FDE /* JKSubTableViewCellCell.h */,
+				646A71C7198AB11300221FDE /* JKSubTableViewCellCell.m */,
+			);
+			path = ExpandTableView;
+			sourceTree = SOURCE_ROOT;
+		};
+		646A71B7198AB11300221FDE /* img */ = {
+			isa = PBXGroup;
+			children = (
+				646A71B8198AB11300221FDE /* arrow-icon.png */,
+				646A71B9198AB11300221FDE /* arrow-icon@2x.png */,
+				646A71BA198AB11300221FDE /* checkmark.png */,
+				646A71BB198AB11300221FDE /* checkmark@2x.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				646A7192198AAB4600221FDE /* Main_iPad.storyboard in Resources */,
+				646A71C8198AB11300221FDE /* arrow-icon.png in Resources */,
 				646A719A198AAB4600221FDE /* Images.xcassets in Resources */,
+				646A71CA198AB11300221FDE /* checkmark.png in Resources */,
+				646A71C9198AB11300221FDE /* arrow-icon@2x.png in Resources */,
 				646A718F198AAB4600221FDE /* Main_iPhone.storyboard in Resources */,
+				646A71CB198AB11300221FDE /* checkmark@2x.png in Resources */,
 				646A7186198AAB4600221FDE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646A71CE198AB11300221FDE /* JKParentTableViewCell.m in Sources */,
+				646A71CC198AB11300221FDE /* JKExpandTableView.m in Sources */,
+				646A71D0198AB11300221FDE /* JKSubTableViewCell.m in Sources */,
 				646A7198198AAB4600221FDE /* JLSecondViewController.m in Sources */,
 				646A718C198AAB4600221FDE /* JLAppDelegate.m in Sources */,
+				646A71CD198AB11300221FDE /* JKMultiSelectSubTableViewCell.m in Sources */,
 				646A7188198AAB4600221FDE /* main.m in Sources */,
+				646A71D1198AB11300221FDE /* JKSubTableViewCellCell.m in Sources */,
+				646A71CF198AB11300221FDE /* JKSingleSelectSubTableViewCell.m in Sources */,
 				646A7195198AAB4600221FDE /* JLFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

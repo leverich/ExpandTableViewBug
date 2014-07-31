@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JKExpandTableView.h"
 
-@interface JLSecondViewController : UIViewController
+@interface JLSecondViewController : UIViewController <JKExpandTableViewDelegate, JKExpandTableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet JKExpandTableView *expandTableView;
 
 @end
